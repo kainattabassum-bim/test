@@ -1,0 +1,27 @@
+/*
+font-family: 'Poppins', sans-serif; 300, 400, 500, 700
+*/
+
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+html { height: 100%;}
+body { position: relative; min-height: 100%; font-family: 'Poppins', sans-serif;}
+ul,li { display: inline-block; list-style: none; padding: 0px; margin: 0px;}
+a { cursor: pointer; text-decoration: none;}
+.clr:after { content: ''; width: 100%; clear: both; display: block;}
+label { font-weight: 500;}
+
+.container { max-width: 1140px; margin: auto; padding-left: 15px; padding-right: 15px;}
+.d-flex { display: flex; -webkit-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-justify-content: space-between; justify-content: space-between; -webkit-align-items: center; align-items: center; -webkit-align-content: stretch; align-content: stretch;}
+
+/* Font awesome Icon */
+.color { color: var(--primary-color);}
+.icon { font-size: 0.7rem; color: var(--primary-color);}
+
+/* Button */
+.btn { font-size: 1rem; padding: 0.2rem 1.3rem; border: none; color: #fff; border-radius: 4px; text-transform: uppercase; cursor: pointer; line-height: 30px;}
+.btn:focus { outline: none;}
+.dark-btn { background-color: var(--primary-color);}
+
+:root { 
+    --primary-color: #6415fd;
+}

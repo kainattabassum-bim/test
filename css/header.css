@@ -1,0 +1,32 @@
+header { width: 100%; position: fixed; top: 0; background-color: rgba(255, 255, 255, 1); z-index: 1350;}
+
+header .dropdown { position: relative; cursor: pointer;}
+header .dropdown svg { width: 15px; height: 15px; position: relative; top: 5px; color: var(--primary-color);}
+
+.dropdown .dropdown-content { display: none;}
+.dropdown .show-time, .dropdown .show-lang { display: block;}
+.dropdown-content { position: absolute; top: 30px; padding: 10px 5px; background: #fff; border-radius: 6px; }
+.dropdown-content::before { content: ' '; width: 15px; height: 15px; background: #fff; position: absolute; top: -6px; right: 11px; transform: rotate(45deg); border-radius: 3px; box-shadow: 0px 5px 10px #ccc; z-index: -1;}
+.dropdown-content li { width: 100%; padding: 12px 0; border-left: none !important; border-right: none !important;}
+.dropdown-content li:not(:last-child) { border-bottom: 1px solid #f3f3f3;}
+.dropdown-content li:not(:first-child) label { display: inline-block; width: 134px; }
+.dropdown-content .timing { display: inline-block;}
+
+.topHeader { font-size: 12px; padding: 5px 0; border-bottom: 1px solid #f3f3f3; }
+.topHeader .socialLinks a { padding-left: 10px; padding-right: 10px;}
+.topHeader .leftContent { float: left; border-left: 1px solid #f3f3f3;}
+.topHeader .leftContent li { padding-right: 10px; padding-left: 10px; border-right: 1px solid #f3f3f3;}
+.topHeader .rightContent { float: right; border-right: 1px solid #f3f3f3;}
+.topHeader .rightContent li { padding-right: 10px; padding-left: 10px; border-left: 1px solid #f3f3f3;}
+
+.navHeader { padding: 8px 0;}
+.navHeader a>img { width: 100%;}
+.navLeft ul li { font-size: 1rem; margin: 10px 15px;}
+.navLeft ul li.active a { color: var(--primary-color);}
+.navLeft li>a { font-weight: 500;}
+.navLeft li.dropdown .list-dropdown { display: none;}
+.navLeft li.dropdown:hover .list-dropdown{ display: block;}
+
+.list-dropdown { position: absolute; top: 40px; right: 0; width: 180px; padding: 10px!important; background: #fff; border-radius: 6px;}
+.list-dropdown::before { content: ' '; width: 15px; height: 15px; background: #fff; position: absolute; top: -6px; right: 11px; transform: rotate(45deg); border-radius: 3px; box-shadow: 0px 5px 10px #ccc; z-index: -1;}
+.list-dropdown li { width: 100%; padding: 10px 0; font-size: 14px !important; margin: 0 !important; border-left: none !important; border-right: none !important;}

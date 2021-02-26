@@ -1,9 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesom -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
 </head>
 <body>
+
+	<header>
+		<div class="container">
+            <div class="topHeader clr">
+                <div class="leftContent">
+                    <ul>
+                        <li><span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span> Author</li>
+                        <li class="dropdown time-dropdown"><span class="color">Today's check-in Time: </span>12:00 am to 5:00 pm 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            <div class="dropdown-content timer">
+                                <ul>
+                                    <li><label>Today's check-in Time:</label> <br>
+                                        <span class="timing">12:00 am to 5:00 pm</span>
+                                    </li>
+
+                                    <li>
+                                        <label for="monday">Monday: </label>
+                                        <span class="timing">12:00 am to 5:00 pm</span>
+                                    </li>
+                                    <li>
+                                        <label for="tuesday">Tuesday: </label>
+                                        <span class="timing">12:00 am to 5:00 pm</span>
+                                    </li>
+                                    <li>
+                                        <label for="wednesday">Wednesday: </label>
+                                        <span class="timing">12:00 am to 5:00 pm</span>
+                                    </li>
+                                    <li>
+                                        <label for="thursday">Thursday: </label>
+                                        <span class="timing">12:00 am to 5:00 pm</span>
+                                    </li>
+                                    <li>
+                                        <label for="friday">Friday: </label>
+                                        <span class="timing">12:00 am to 5:00 pm</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="socialLinks">
+                            <a href="#"><span class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                            <a href="#"><span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+                            <a href="#"><span class="icon"><i class="fa fa-youtube-play" aria-hidden="true"></i></span></a>
+                            <a href="#"><span class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rightContent">
+                    <ul>
+                        <li><span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span> +91 123 4567890</li>
+                        <li class="dropdown lang-dropdown">
+                            English 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            <div class="dropdown-content language">
+                                <ul>
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">Urdu</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navHeader">
+                <nav class="d-flex">
+                    <a href="index.html"><img src="./image/logo.png" alt="company logo"></a>
+                    <div class="navLeft">
+                        <ul>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">The Hotel</a></li>
+                            <li class="dropdown"><a href="#">Rooms</a>
+                                <div class="list-dropdown">
+                                    <ul>
+                                        <li><a href="#">Single Room</a></li>
+                                        <li><a href="#">Double Room</a></li>
+                                        <li><a href="#">Queen Size</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Attractions</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="navRight">
+                        <button class="btn dark-btn">book now</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+	</header>
+
+    <section class="hero">
+        
+    </section>
+
+    <!-- JS Files -->
+    <script src="./js/main.js"></script>
 
 </body>
 </html>
