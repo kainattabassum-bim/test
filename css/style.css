@@ -16,11 +16,15 @@ label { font-weight: 500;}
 /* Font awesome Icon */
 .color { color: var(--primary-color);}
 .icon { font-size: 0.7rem; color: var(--primary-color);}
+.dark-icon { background: #828282; color: #fff; padding: 6px 8px; border-radius: 4px;}
 
 /* Button */
 .btn { font-size: 1rem; padding: 0.2rem 1.3rem; border: none; color: #fff; border-radius: 4px; text-transform: uppercase; cursor: pointer; line-height: 30px;}
-.btn:focus { outline: none;}
+.btn:focus { outline: none; box-shadow: none;}
 .dark-btn { background-color: var(--primary-color);}
+
+/* Media */
+.img-fluid { max-width: 100%; height: auto;}
 
 :root { 
     --primary-color: #6415fd;

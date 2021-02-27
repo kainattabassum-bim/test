@@ -6,4 +6,11 @@ $(document).ready(function(){
     $(".lang-dropdown").click(function(){
         $(".language").toggleClass("show-lang")
     });
+
+    $(".navbar-toggler").click(function(){
+        $(".menu-aside").addClass("openSide");
+    });
+    $(".close").click(function(){
+        $(".menu-aside").removeClass("openSide");
+    });
 })
