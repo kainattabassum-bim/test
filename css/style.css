@@ -27,8 +27,12 @@ label { font-weight: 500;}
 .img-fluid { max-width: 100%; height: auto;}
 
 /* page wrapper */
-.page-container { position: relative; padding-bottom: 64px;}
+.page-container { position: relative; padding-bottom: 374px;}
 
 :root { 
     --primary-color: #6415fd;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .page-container { padding-bottom: 874px;}
 }

@@ -13,7 +13,7 @@ header .dropdown svg { width: 15px; height: 15px; position: relative; top: 5px; 
 .dropdown-content .timing { display: inline-block;}
 
 .topHeader { font-size: 12px; padding: 5px 0; border-bottom: 1px solid #f3f3f3; }
-.topHeader .socialLinks a { padding-left: 10px; padding-right: 10px;}
+.socialLinks a { padding-left: 10px; padding-right: 10px;}
 .topHeader .leftContent { float: left; border-left: 1px solid #f3f3f3;}
 .topHeader .leftContent li { padding-right: 10px; padding-left: 10px; border-right: 1px solid #f3f3f3;}
 .topHeader .rightContent { float: right; border-right: 1px solid #f3f3f3;}
