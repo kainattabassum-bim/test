@@ -14,10 +14,12 @@ header .dropdown svg { width: 15px; height: 15px; position: relative; top: 5px; 
 
 .topHeader { font-size: 12px; padding: 5px 0; border-bottom: 1px solid #f3f3f3; }
 .socialLinks a { padding-left: 10px; padding-right: 10px;}
-.topHeader .leftContent { float: left; border-left: 1px solid #f3f3f3;}
-.topHeader .leftContent li { padding-right: 10px; padding-left: 10px; border-right: 1px solid #f3f3f3;}
-.topHeader .rightContent { float: right; border-right: 1px solid #f3f3f3;}
-.topHeader .rightContent li { padding-right: 10px; padding-left: 10px; border-left: 1px solid #f3f3f3;}
+.topHeader .leftContent li ,.topHeader .rightContent li { padding-right: 10px; padding-left: 10px;}
+.topHeader .leftContent li:not(:last-child) { border-right: 1px solid #f3f3f3; }
+.topHeader .rightContent li:not(:first-child) { border-left: 1px solid #f3f3f3;}
+
+.topHeader .leftContent { float: left; margin-left: -10px;}
+.topHeader .rightContent { float: right; margin-right: -10px;}
 
 .navHeader { padding: 8px 0;}
 .navLeft ul li { font-size: 1rem; margin: 10px 15px;}

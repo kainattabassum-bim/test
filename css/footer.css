@@ -1,14 +1,14 @@
-footer { width: 100%; position: absolute; bottom: 0; padding: 4rem 0; background: #001c29; color: #fff; font-size: 14px;}
+footer { width: 100%; position: absolute; bottom: 0; background: #001c29; color: #fff; font-size: 14px;}
 footer .icon { color: #fff;}
-footer .icon .fa { font-size: 12px !important;}
+footer .icon .fa { font-size: 16px !important;}
 
-footer .row { display: flex; flex-wrap: wrap;}
-footer .columns { display: flex; width: calc(33.33% - 15px);}
-footer .columns li { display: block !important; margin: 0px 0 20px; }
+footer .footerTitle { font-size: 1rem; font-weight: 500; margin-bottom: 15px;}
+footer .content { text-align: center; padding-top: 3rem;}
+footer .columns li { margin: 15px 0; padding: 0 10px;}
 footer .columns li a { color: #fff !important;}
-
-footer .bookingTiming li:not(:first-child) label { display: inline-block; width: 120px;}
+footer .reserved { background-color: #636363; text-align: center; padding: 10px 0;}
 
 @media (min-width: 320px) and (max-width: 767px) {
     footer .columns { width: 100%; margin-top: 30px;}
+    footer .columns li { margin: 10px 0; padding: 0 5px;}
 }

@@ -4,12 +4,13 @@ font-family: 'Poppins', sans-serif; 300, 400, 500, 700
 
 *{ margin: 0; padding: 0; box-sizing: border-box;}
 html { height: 100%;}
-body { position: relative; min-height: 100%; font-family: 'Poppins', sans-serif;}
+body { position: relative; min-height: 100%; font-family: 'Poppins', sans-serif; background: #f3f3f3;}
 ul,li { display: inline-block; list-style: none; padding: 0px; margin: 0px;}
 a { cursor: pointer; text-decoration: none;}
 .clr:after { content: ''; width: 100%; clear: both; display: block;}
 label { font-weight: 500;}
 
+.container-fluid { width: 100%; margin: auto; padding-left: 15px; padding-right: 15px;}
 .container { max-width: 1140px; margin: auto; padding-left: 15px; padding-right: 15px;}
 .d-flex { display: flex; -webkit-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-justify-content: space-between; justify-content: space-between; -webkit-align-items: center; align-items: center; -webkit-align-content: stretch; align-content: stretch;}
 
@@ -27,12 +28,13 @@ label { font-weight: 500;}
 .img-fluid { max-width: 100%; height: auto;}
 
 /* page wrapper */
-.page-container { position: relative; padding-bottom: 374px;}
+.page-container { position: relative; padding-bottom: 231px;}
+.content-wrap{ padding: 4rem 0;}
 
 :root { 
     --primary-color: #6415fd;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-    .page-container { padding-bottom: 874px;}
+    .page-container { padding-bottom: 313px;}
 }
