@@ -31,6 +31,9 @@ label { font-weight: 500;}
 .page-container { position: relative; padding-bottom: 231px;}
 .content-wrap{ padding: 4rem 0;}
 
+.sectionTitle { font-size: 36px; text-transform: uppercase; color: ;}
+.lead { font-size: 14px; }
+
 :root { 
     --primary-color: #6415fd;
 }

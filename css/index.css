@@ -18,6 +18,9 @@
 .card .card-caption .caption-content h5 { font-size: 14px; font-weight: 500; text-transform: capitalize;}
 .card .card-caption .caption-content p { font-size: 10px; font-weight: 400;}
 
+.blog { text-align: center;}
+.blog .col-6 { float: left; width: calc(50% - 15px);}
+
 @media (min-width: 320px) and (max-width: 767px) {
     .hero .contentVideo { margin: 0 10px; padding: 40px 10px;}
     .hero { background-position: 70%;}
