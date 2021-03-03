@@ -1,0 +1,19 @@
+/* Hero Section */
+.hero { position: relative; display: table; width: 100%; height: 100vh; background-image: url(/image/hero-bg.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; opacity: .65;}
+.hero .table-vertically { display: table-cell; vertical-align: middle; text-align: center;}
+.hero .icon { display: inline-block; width: 100px; border: 2px solid #fff; border-radius: 50%; cursor: pointer;}
+.hero .icon .fa { font-size: 2rem; line-height: 3; color: #fff !important;}
+.hero .contentVideo { background: rgba(0, 0, 0, .5); margin: 0 50px; padding: 50px 75px; color: #fff; border-radius: 10px;}
+.hero .contentVideo .sectionTitle { font-size: 2rem; text-transform: uppercase; margin-bottom: 15px;}
+.hero .contentVideo p { margin-bottom: 1rem;}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .hero .contentVideo { margin: 0 10px; padding: 40px 10px;}
+    .hero { background-position: 70%;}
+    .col-6, .about .col-3{ width: 100%;}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hero .contentVideo { margin: 0 20px; padding: 40px 20px;}
+    .hero { background-position: 100%;}
+    .col-6, .about .col-3 { width: calc(50% - 15px);}
+}

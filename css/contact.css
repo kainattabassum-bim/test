@@ -1,0 +1,14 @@
+/* Contact Section */
+.contact .contactDetail h4 { font-weight: 500; margin-bottom: .5rem;}
+.contact .contactDetail p{ font-size: 14px; margin-bottom: 1rem;}
+.contact .contactDetail ul { margin-top: 20px;}
+.contact .contactDetail li { display: block; font-size: 14px; padding-bottom: 5px;}
+.contact form { text-align: end;}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .contact form { margin-top: 1rem;}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+   .col-6, .about .col-3 { width: calc(50% - 15px);}
+}

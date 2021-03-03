@@ -23,19 +23,28 @@ label { font-weight: 500;}
 .btn { font-size: 1rem; padding: 0.2rem 1.3rem; border: none; color: #fff; border-radius: 4px; text-transform: uppercase; cursor: pointer; line-height: 30px;}
 .btn:focus { outline: none; box-shadow: none;}
 .dark-btn { background-color: var(--primary-color);}
+.plain-btn { background-color: var(--secondary-color);}
 
 /* Media */
 .img-fluid { max-width: 100%; height: auto;}
 
 /* page wrapper */
 .page-container { position: relative; padding-bottom: 231px;}
-.content-wrap{ padding: 4rem 0;}
-
+.content-wrap{ padding: 120px 0;}
+.section-content { text-align: center; margin-bottom: 2.5rem;}
 .sectionTitle { font-size: 36px; text-transform: uppercase; color: ;}
 .lead { font-size: 14px; }
 
+.p-turcate { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; text-overflow: ellipsis;}
+
+/* Form */
+.form-group{ width: 100%; margin-bottom: 1rem;}
+.form-group .form-control { font-family: 'Poppins', sans-serif; width: 100%; line-height: 35px; background: transparent; border: 1px solid var(--secondary-color); padding: 2px 10px; border-radius: 4px;}
+.form-group .form-control:focus { outline: none;}
+
 :root { 
     --primary-color: #6415fd;
+    --secondary-color: #001c29;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

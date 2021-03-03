@@ -1,0 +1,15 @@
+/* About Section */
+.about .col-3 { float: left; width: calc(33.33% - 10px); margin: 0 5px 20px;}
+.about .aboutCard { position: relative; box-shadow: 0  0px 10px 4px rgb(31 66 135 / 5%); padding: 20px 10px; border-radius: 6px; overflow: hidden;}
+.about .hoverEffect { position: absolute; bottom: 0; left: 20; background: #eedcfa; width: 210px; height: 210px; transition: .4s; z-index: -1; border-radius: 50%; opacity: 0;}
+.about .hoverEffect::before { content: ' '; width: 130px; height: 130px; background: #ab52e7; position: absolute; bottom: -20px; right: -60px; border-radius: 50%; z-index: -1;}
+.about .hoverEffect::after { content: ' '; width: 50px; height: 50px; background: #f8e7fb; position: absolute; top: -5px; right: -120px; border-radius: 50%; z-index: -1;}
+.about .aboutCard:hover .hoverEffect { opacity: 1;}
+.about .aboutCard .cardHeading { font-size: 1.15rem; font-weight: 700; margin-bottom: .6rem;}
+
+@media (min-width: 320px) and (max-width: 767px) {
+   
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
